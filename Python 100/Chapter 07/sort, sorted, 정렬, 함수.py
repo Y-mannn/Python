@@ -17,3 +17,10 @@ print('[원본-2]: ', lst)
 acs_lst = sorted(lst) #원본 배열인 lst 리스트는 그대로 유지
 print('[변경]: ', acs_lst)
 print('[원본-2]: ', lst)
+
+#[4]: sorted() --> 내림차순
+desc_lst = sorted(lst, reverse=True) #reverse 옵션을 True 주면 내림차순 정렬, 먼저 오름차순으로 정렬 후 내림차순으로 정렬
+
+#[5]: 출력
+print('[1]sort()함수로 정렬: ', lst) #내림차순
+print('[2]sorted()함수로 정렬: ', acs_lst, desc_lst)
